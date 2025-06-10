@@ -55,7 +55,7 @@ docker logs wp-nginx
 через WP-CLI
 
 ```shell
-sudo docker exec -it wp-php wp user update badmin --user_pass=admin123 --allow-root
+sudo docker exec -it wp-php wp user update admin --user_pass=admin123 --allow-root
 ```
 
 # Доступ к phpmyadmin
